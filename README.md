@@ -45,23 +45,23 @@ This project demonstrates a real-time hand gesture recognition system using Pyth
 
 ## 📦 Installation
 
-### Step 1: Install Python 3.10
+### Step 1: Install Python 3.11
 
 **Windows:**
-1. Download Python 3.10 from [python.org](https://www.python.org/downloads/release/python-31011/)
+1. Download Python 3.11 from [python.org](https://www.python.org/downloads/release/python-31011/)
 2. During installation, make sure to check "Add Python to PATH"
 3. Verify installation:
    ```bash
    python --version
-   # Should show: Python 3.10.x
+   # Should show: Python 3.11.x
    ```
 
-**Alternative**: If you have multiple Python versions, use `py -3.10` to run Python 3.10 specifically.
+**Alternative**: If you have multiple Python versions, use `py -3.11` to run Python 3.11 specifically.
 
 ### Step 2: Clone the Repository
 
 ```bash
-git clone https://github.com/chiragnahata/GestureMath.git
+git clone https://github.com/chiragnahata/AirCanvas.git
 cd GestureMath
 ```
 
@@ -87,7 +87,7 @@ pip install -r requirements.txt
 ```
 
 **Note**: If you encounter errors with `mediapipe` or binary packages, ensure you have:
-- Python 3.10 (not 3.11 or 3.13)
+- Python 3.11
 - Visual Studio C++ Build Tools installed
 - 64-bit Python version
 
@@ -101,7 +101,7 @@ pip install -r requirements.txt
 
 ### Step 2: Configure API Key
 
-Open `math_solver.py` and replace the API key on line 10:
+Open `app.py` and replace the API key on line 10:
 
 ```python
 API_KEY = "your-api-key-here"
@@ -110,7 +110,7 @@ API_KEY = "your-api-key-here"
 ### Step 3: Run the Application
 
 ```bash
-python math_solver.py
+python app.py
 ```
 
 ### Step 4: Interact with the Application
@@ -257,8 +257,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## 👨‍💻 Author
 
 **Chirag Nahata**
-- GitHub: [@chiragnahata](https://github.com/chiragnahata)
-- Repository: [GestureMath](https://github.com/chiragnahata/GestureMath)
+**Snigdha Ghosh**
+**Somyadip Ghosh**
+**Rajarshi Bhowmik**
+**Purba Saha**
 
 ## 🙏 Acknowledgments
 
