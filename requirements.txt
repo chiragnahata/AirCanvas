@@ -1,5 +1,11 @@
-opencv-python
+streamlit
+streamlit-webrtc
+opencv-python-headless
 cvzone
 numpy
 Pillow
-google-generativeai
+google-genai
+python-dotenv
+av
+mediapipe==0.10.9
+protobuf==3.20.3
