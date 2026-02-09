@@ -133,7 +133,7 @@ class VideoProcessor:
             
             print("DEBUG: Sending request to Gemini...")
             response = client.models.generate_content(
-                model='gemini-2.0-flash', 
+                model='gemini-3-flash-preview', 
                 contents=[prompt, pil_image]
             )
             print("DEBUG: Received response from Gemini")
